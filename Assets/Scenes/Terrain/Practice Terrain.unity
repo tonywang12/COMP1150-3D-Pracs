@@ -963,7 +963,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 1
+  orthographic: 0
   orthographic size: 40
   m_Depth: -1
   m_CullingMask:
@@ -971,7 +971,7 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
+  m_TargetDisplay: 1
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
@@ -987,13 +987,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1884436551}
-  m_LocalRotation: {x: 0.015716644, y: -0.23479208, z: 0.0034695459, w: 0.9719123}
+  m_LocalRotation: {x: 0.016064422, y: -0.38254753, z: 0.0009924641, w: 0.92379564}
   m_LocalPosition: {x: 58.4, y: 25.21, z: -9.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 1.8440001, y: -27.163002, z: -0.036000002}
+  m_LocalEulerAnglesHint: {x: 1.7440001, y: -44.998, z: -0.59900004}
 --- !u!95 &1884436555
 Animator:
   serializedVersion: 3
