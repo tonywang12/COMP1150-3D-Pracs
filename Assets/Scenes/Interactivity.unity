@@ -520,10 +520,29 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 2
+  m_CollisionDetection: 3
+--- !u!95 &478767652
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478767649}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0c7aac0c813381f43b56f64680865cbe, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &577585843
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -751,6 +770,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door3
       objectReference: {fileID: 0}
+    - target: {fileID: 1782337247710448, guid: 5c480760a2d55cc459b0c40d15667209, type: 3}
+      propertyPath: m_Name
+      value: Pivot3
+      objectReference: {fileID: 0}
     - target: {fileID: 4311060720254708, guid: 5c480760a2d55cc459b0c40d15667209, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3
@@ -848,3 +871,28 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &1796436677 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1843777540164698, guid: 5c480760a2d55cc459b0c40d15667209,
+    type: 3}
+  m_PrefabInstance: {fileID: 1042146822}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1796436682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796436677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1b1fdc3397488d4b99b94cd1dc61561, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 478767652}
+  lookAtTriggerName: LookAt
+  lookAwayTriggerName: LookAway
+  lookingAtBoolName: LookingAt
+  mouseDownTriggerName: MouseDown
+  mouseUpTriggerName: MouseUp
+  mouseDragBoolName: MouseDrag
